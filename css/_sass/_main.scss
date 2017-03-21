@@ -1,10 +1,9 @@
-// Imports
-@import "partials/base";
+// CLEAN UP BEFORE IMPORTING
+@import 'partials/cleanup';
+
+// IMPORT MODULES
+@import 'modules/all';
 
 
-body{
-  font-family: $base-font-family;
-  font-weight: $base-font-weight;
-  font-size: $base-font-size;
-  line-height: $base-line-height;
-}
+@import 'partials/typography';
+

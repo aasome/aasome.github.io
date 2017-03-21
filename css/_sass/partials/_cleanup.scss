@@ -16,57 +16,29 @@ time, mark, audio, video {
   border: 0;
   font-size: 100%;
   font: inherit;
-  vertical-align: baseline; }
-
+  vertical-align: baseline;
+}
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
-  display: block; }
-
+  display: block;
+}
 body {
-  line-height: 1; }
-
+  line-height: 1;
+}
 ol, ul, li {
-  list-style: none; }
-
+  list-style: none;
+}
 blockquote, q {
-  quotes: none; }
-
+  quotes: none;
+}
 blockquote:before, blockquote:after,
 q:before, q:after {
   content: '';
-  content: none; }
-
+  content: none;
+}
 table {
   border-collapse: collapse;
-  border-spacing: 0; }
+  border-spacing: 0;
+}
 
-h1, h2, h3, h4, h5 {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  color: #455a64; }
-
-h1 {
-  font-size: 2rem;
-  line-height: 2.25rem;
-  margin: 0;
-  display: block; }
-
-h3 {
-  font-size: 1.125rem;
-  text-transform: uppercase; }
-
-body {
-  font-family: "Open Sans", sans-serif;
-  font-weight: 400;
-  font-size: 19px;
-  line-height: 24px;
-  color: #4a4a4a; }
-
-a, a:visited {
-  text-decoration: none;
-  color: #455a64; }
-  a:hover, a:visited:hover {
-    color: #f4511e; }
-    a:hover h1, a:hover h2, a:hover h3, a:hover h4, a:hover h5, a:visited:hover h1, a:visited:hover h2, a:visited:hover h3, a:visited:hover h4, a:visited:hover h5 {
-      color: #f4511e; }

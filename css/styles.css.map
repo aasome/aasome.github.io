@@ -1,7 +1,0 @@
-{
-"version": 3,
-"mappings": "AAIA,IAAI;EACF,WAAW,ECCM,oBAAoB;EDArC,WAAW,ECCM,GAAQ;EDAzB,SAAS,ECCM,IAAI;EDAnB,WAAW,ECCM,OAAO",
-"sources": ["_sass/_main.scss","_sass/partials/_base.scss"],
-"names": [],
-"file": "styles.css"
-}

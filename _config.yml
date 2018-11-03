@@ -1,2 +1,6 @@
 sass:
     sass_dir: css/_sass
+
+timezone: Europe/Oslo
+
+permalink: /:year/:title:output_ext

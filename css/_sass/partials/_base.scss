@@ -3,3 +3,27 @@
 // IMPORTING MODULES
 
 @import 'typography';
+
+.page-wrapper{
+    max-width:1280px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+
+
+.thumbs{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    li{
+        width:30%;
+        min-width: 640px;
+    }
+
+    img{
+        width:100%;
+    }
+}
+

@@ -1,6 +1,7 @@
 h1, h3, h4, h5{
   font-family: $header-font-family;
   font-weight: $header-font-weight;
+  font-variant-ligatures: none;
   color: $secondary-color;
 }
 

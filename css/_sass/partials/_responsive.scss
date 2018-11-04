@@ -1,10 +1,10 @@
 /* Extra small devices (phones, 600px and down) */
-@media screen and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
     .thumbs>li{width:100%;}
 } 
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media screen and (min-width: 600px) {
+@media only screen and (min-width: 600px) {
     .thumbs>li{width:50%;}
 } 
 
@@ -14,11 +14,11 @@
 } 
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media screen and (min-width: 992px) {
+@media only screen and (min-width: 992px) {
     .thumbs>li{width: 33.33333333%;}
 } 
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media screen and (min-width: 1600px) {
+@media only screen and (min-width: 1600px) {
     .thumbs>li{width: 25%;}
 }

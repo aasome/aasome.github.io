@@ -9,14 +9,14 @@
 } 
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1024px) {
     .thumbs>li{width: 33.33333333%;}
 } 
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-    .thumbs>li{width: 33.33333333%;}
-} 
+//@media only screen and (min-width: 992px) {
+//    .thumbs>li{width: 33.33333333%;}
+//} 
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1600px) {

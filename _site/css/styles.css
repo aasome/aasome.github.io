@@ -84,7 +84,7 @@ h2 {
   margin-top: 0.5rem; }
 
 h3 {
-  font-size: 2rem;
+  font-size: calc(1.5rem + 0.5vw);
   text-align: center;
   line-height: 1.75rem;
   padding-bottom: 1rem;
@@ -150,13 +150,10 @@ a, a:visited {
   .thumbs > li {
     width: 50%; } }
 /* Medium devices (landscape tablets, 768px and up) */
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1024px) {
   .thumbs > li {
     width: 33.33333333%; } }
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-  .thumbs > li {
-    width: 33.33333333%; } }
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1600px) {
   .thumbs > li {

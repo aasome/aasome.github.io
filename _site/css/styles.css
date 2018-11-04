@@ -156,6 +156,9 @@ a, a:visited {
   margin-left: auto;
   margin-right: auto; }
 
+.header-image {
+  width: 100%; }
+
 .post-body {
   display: flex;
   margin-top: 1.25rem;

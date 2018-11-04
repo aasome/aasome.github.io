@@ -1,10 +1,9 @@
 ---
 layout: post
 title:  "Hvorfor bør du bry deg om kjedelige brev?"
-front-title: "Om kjedelige brev"
-front-image: assets/blobben3.jpg
-background-color: #37c4b3
-font-color: #fff
+subtitle: "Tegnefilm"
+front-title: "Om inkasso"
+front-image: blobben3.jpg
 youtube: https://www.youtube.com/embed/ecXnMCaPu4Q
 date: 2017-03-19
 client: NRK P3

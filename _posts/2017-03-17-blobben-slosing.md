@@ -1,10 +1,9 @@
 ---
 layout: post
 title:  "Hvor blir alle pengene av?"
+subtitle: "Tegnefilm"
 front-title: "Om sløsing"
-front-image: assets/blobben2.jpg
-background-color:  #c34bde
-font-color: #fff
+front-image: blobben2.jpg
 youtube: https://www.youtube.com/embed/TFlc_gDfON4
 date: 2017-03-17
 client: NRK P3

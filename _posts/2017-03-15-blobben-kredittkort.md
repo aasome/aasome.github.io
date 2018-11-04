@@ -1,8 +1,9 @@
 ---
 layout: post
 title:  "Er det smart å bruke penger man ikke har?"
+subtitle: "Tegnefilm"
 front-title: "Om kredittkort"
-front-image: assets/blobben1.jpg
+front-image: blobben1.jpg
 youtube: https://www.youtube.com/embed/AnOPDVBivUs
 date: 2017-03-15
 client: NRK P3

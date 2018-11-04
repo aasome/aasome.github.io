@@ -1,14 +1,23 @@
-h1, h2, h3, h4, h5{
+h1, h3, h4, h5{
   font-family: $header-font-family;
   font-weight: $header-font-weight;
   color: $secondary-color;
 }
 
 h1{
-  font-size: 2rem;
-  line-height: 2.25rem;
-  margin:0;
+  font-size: 3rem;
+  line-height: 2.5rem;
+  margin: 1rem 0 0 0;
+  text-align: center;
   display: block;
+}
+
+h2{
+  font-family: $base-font-family;
+  font-size: 1rem;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 0.5rem;
 }
 
 h3{

@@ -1,0 +1,19 @@
+.post-wrapper{
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right:auto;
+}
+
+
+.post-body{
+    display: flex;
+    margin-top: 1.25rem;
+    padding: 1.5rem 1rem;
+    border-top: 2px solid $secondary-color;
+    justify-content: space-between;
+
+    .metadata{
+        width:30%;
+        margin-left: 2rem;
+    }
+}

@@ -29,6 +29,23 @@
             <div>{{content}}</div>
 
                 <ul class="metadata">
+                    <li>Publisert {% assign m = page.date | date: "%-m" %}
+                            {{ page.date | date: "%-d" }}.
+                            {% case m %}
+                              {% when '1' %}januar
+                              {% when '2' %}februar
+                              {% when '3' %}mar
+                              {% when '4' %}april
+                              {% when '5' %}mai
+                              {% when '6' %}juni
+                              {% when '7' %}juli
+                              {% when '8' %}august
+                              {% when '9' %}september
+                              {% when '10' %}oktober
+                              {% when '11' %}november
+                              {% when '12' %}desember
+                            {% endcase %}
+                            {{ page.date | date: "%Y" }}</li>
                     <li>{% if page.client %}Laget for {{ page.client }} {% else %} Personlig prosjekt {% endif %}</li>
                 </ul>
 

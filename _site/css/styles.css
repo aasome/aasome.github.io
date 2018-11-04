@@ -53,9 +53,11 @@ h1 {
   display: block; }
 
 h3 {
-  font-size: 3rem;
-  line-height: 3rem;
-  margin-bottom: 1rem; }
+  font-size: 2rem;
+  text-align: center;
+  line-height: 1.75rem;
+  padding-bottom: 1rem;
+  margin-bottom: 0.75rem; }
 
 body {
   font-family: "Open Sans", sans-serif;
@@ -72,17 +74,48 @@ a, a:visited {
     a:hover h1, a:hover h2, a:hover h3, a:hover h4, a:hover h5, a:visited:hover h1, a:visited:hover h2, a:visited:hover h3, a:visited:hover h4, a:visited:hover h5 {
       color: #f4511e; }
 
-.page-wrapper {
-  max-width: 1280px;
-  margin-left: auto;
-  margin-right: auto; }
-
 .thumbs {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around; }
-  .thumbs li {
-    width: 30%;
-    min-width: 640px; }
+  .thumbs a {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%; }
+  .thumbs h3 {
+    position: absolute;
+    top: 87%;
+    left: 0;
+    right: 0;
+    transform: translate(0, -50%);
+    text-align: center; }
+  .thumbs span {
+    background-color: white;
+    padding: 0.5rem 1rem 0.75rem;
+    display: inline-block;
+    border: 3px solid #000; }
   .thumbs img {
-    width: 100%; }
+    width: 100%;
+    display: block; }
+
+/* Extra small devices (phones, 600px and down) */
+@media screen and (max-width: 600px) {
+  .thumbs > li {
+    width: 100%; } }
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media screen and (min-width: 600px) {
+  .thumbs > li {
+    width: 50%; } }
+/* Medium devices (landscape tablets, 768px and up) */
+@media screen and (min-width: 768px) {
+  .thumbs > li {
+    width: 33.33333333%; } }
+/* Large devices (laptops/desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+  .thumbs > li {
+    width: 33.33333333%; } }
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media screen and (min-width: 1600px) {
+  .thumbs > li {
+    width: 25%; } }

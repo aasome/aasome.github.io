@@ -3,10 +3,10 @@ layout: default
 ---
 <ul class="thumbs">
 {% for post in site.posts %}
-    <li>
+    <li>    
         <a href="{{ post.url }}">
             <img src="{{ post.front-image }}">
-            <h3>{{ post.front-title }}</h3>
+            <h3><span>{{ post.front-title }}</span></h3>
         </a>
     </li>
 {% endfor %}

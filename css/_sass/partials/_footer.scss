@@ -1,0 +1,26 @@
+.footer-wrapper{
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-top: 2px solid #000;
+    padding: 1rem;
+
+
+    p{
+        font-size: calc(0.75rem + 0.5vw);
+        line-height: calc(1rem + 0.75vw);
+    }
+}
+
+.bio{
+    display: flex;
+    text-align: justify;
+    margin-bottom: 1rem;
+}
+
+.contact{
+    text-align: center;
+}

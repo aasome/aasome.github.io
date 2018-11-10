@@ -1,15 +1,18 @@
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
 	.thumbs>li{width:100%;}
-	.footer-wrapper img{width:100px;}
+	.footer img{width:100px;}
 	.bio{width:100%;}
 	.contact{width:100%;}
+	.bio h4{display:none;}
 } 
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
 	.thumbs>li{width:50%;}
-	.footer-wrapper img{width:150px;}
+	.footer{
+		img{width:150px;}
+	} 
 	.bio{width:100%;}
 	.contact{width:100%;}
 } 
@@ -17,7 +20,7 @@
 /* Medium devices (landscape tablets, 768px and up) */
 @media screen and (min-width: 1024px) {
 	.thumbs>li{width: 33.33333333%;}
-	.bio{width:70%;}
+	.bio{width:50%;}
 	.contact{width:auto;}
 
 } 

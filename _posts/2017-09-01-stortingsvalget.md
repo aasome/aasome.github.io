@@ -10,3 +10,5 @@ client: NRK P3
 ---
 
 En tegneserie som i detalj forklarer valgsystemet i Norge.
+
+Les den her: <a href="https://p3.no/slik-funker-stortingsvalget/">https://p3.no/slik-funker-stortingsvalget/</a>

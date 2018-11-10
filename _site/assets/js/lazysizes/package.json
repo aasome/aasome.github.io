@@ -1,0 +1,130 @@
+{
+  "_args": [
+    [
+      "lazysizes",
+      "/mnt/c/Users/aasma/OneDrive/aasome.github.io"
+    ]
+  ],
+  "_from": "lazysizes@latest",
+  "_hasShrinkwrap": false,
+  "_id": "lazysizes@4.1.4",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/lazysizes",
+  "_nodeVersion": "8.11.2",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/lazysizes_4.1.4_1538774842206_0.21502664556174556"
+  },
+  "_npmUser": {
+    "email": "alex@boffinhouse.com",
+    "name": "afarkas"
+  },
+  "_npmVersion": "6.4.1",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "lazysizes",
+    "raw": "lazysizes",
+    "rawSpec": "",
+    "scope": null,
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/lazysizes/-/lazysizes-4.1.4.tgz",
+  "_shasum": "1b2974420252e6eab7a6a1e8c8bdcb177a72a06a",
+  "_shrinkwrap": null,
+  "_spec": "lazysizes",
+  "_where": "/mnt/c/Users/aasma/OneDrive/aasome.github.io",
+  "author": {
+    "email": "info@corrupt-system.de",
+    "name": "Alexander Farkas"
+  },
+  "browser": "lazysizes.js",
+  "bugs": {
+    "url": "https://github.com/aFarkas/lazysizes/issues"
+  },
+  "dependencies": {},
+  "description": "High performance (jankfree) lazy loader for images (including responsive images), iframes and scripts (widgets).",
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-bytesize": "~0.1.1",
+    "grunt-cli": "~0.1",
+    "grunt-contrib-jshint": "^1.0.0",
+    "grunt-contrib-qunit": "^0.5.2",
+    "grunt-contrib-uglify": "^0.7.0",
+    "grunt-contrib-watch": "~0.4.0",
+    "grunt-max-filesize": "^0.1.0",
+    "grunt-plato": "^1.2.1",
+    "grunt-uncss": "~0.3.7",
+    "jquery": "^2.1.4",
+    "jquery-deparam": "^0.1.0",
+    "picturefill": "^2.2.0",
+    "qunitjs": "^1.17.0",
+    "respimage": "^1.4.2"
+  },
+  "directories": {},
+  "dist": {
+    "fileCount": 73,
+    "integrity": "sha512-jVplgeHHoQ6a2RZtxCAKFAnm6QPQmEIKq4JWSTI1XfCBhn+CqDgMKWDJO81f8VtVBdAlHs+BzP2WGzMLUi3oFg==",
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbt9c7CRA9TVsSAnZWagAAzWAP/jFz2bXVTPTfXLYhPS4Z\nu9LQpjLpG8v+N39xrH8hjYp979zt6i96yf+/zmNkRTuJ+eO8NCC3BBr8xuk0\naNZ1h3so1x2qKUfGl3wU4G/KTnOo3VwBruo97BdFKja8cb+LiCtDHcuc1SJm\nGTdNSUE3nY47nW/QYG4Epyz3D2wCp5vOZkX3/XZZtG+TY1kUvz0k0Af2B62v\nmHAksFItQndsA+TlhRAyhEyFsrPoNi3/43Y/vB/SA6BpJHovMbzskygjbFr0\nFBIVDTVfplOy6XYjloED9u71JLxnfj9vlSZ+s+ttzje8KyB95DSVC8Fl5Y0x\nRCAoJnVeyNWYJRyOErnQmTqf4HoTqShq9e4jkRlkY0geTEUfMtAMnyZAIYfr\n74X+FuT207mVuVtZf69IYikn3J24W/PcuXI/q0c/Uyt3OXX5BgDbpI14a4Dv\nv7j0N4Jpvold2RFaY9MhYHeq5FBfo6iHQuqHJnGZiZbzNvutB32Juv0BSSMS\nSkarriVGmuUZTGsZJcGDxmRYHt6QMg4DtY7tWUyRRO4iUrfoXMLp6V/wD0jW\nntSARrGmMXPAUrRRb9Froqg68cG8zAbcX/sQHrFujqOPeOJFzmnsAHOdhtJz\nW06qyyNbA31rYMIWYhq2O0n1LsLZWNwx2TuxpfV7a4VpeXabeILn3kWGpN5P\noBxg\r\n=ubgy\r\n-----END PGP SIGNATURE-----\r\n",
+    "shasum": "1b2974420252e6eab7a6a1e8c8bdcb177a72a06a",
+    "tarball": "https://registry.npmjs.org/lazysizes/-/lazysizes-4.1.4.tgz",
+    "unpackedSize": 325110
+  },
+  "filename": "lazysizes.min.js",
+  "gitHead": "d7e043d83eca7416011adeae9d4d6ca3390808b2",
+  "homepage": "https://github.com/aFarkas/lazysizes#readme",
+  "keywords": [
+    "ajax",
+    "component",
+    "image",
+    "imager",
+    "imager.js",
+    "images",
+    "img",
+    "include",
+    "lazy",
+    "lazySizes",
+    "lazyload",
+    "lazyloader",
+    "loader",
+    "performance",
+    "picture",
+    "picturefill",
+    "respimage",
+    "respimg",
+    "responsive",
+    "responsive images",
+    "srcset"
+  ],
+  "license": "MIT",
+  "main": "lazysizes.js",
+  "maintainers": [
+    {
+      "name": "afarkas",
+      "email": "info@corrupt-system.de"
+    }
+  ],
+  "name": "lazysizes",
+  "namespace": "lazySizes",
+  "npmFileMap": [
+    {
+      "basePath": "",
+      "files": [
+        "lazysizes.min.js",
+        "plugins/**/*.min.js"
+      ]
+    }
+  ],
+  "npmName": "lazysizes",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/aFarkas/lazysizes.git"
+  },
+  "version": "4.1.4"
+}

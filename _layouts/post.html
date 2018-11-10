@@ -15,7 +15,9 @@
             {% endif %}
 
             {% if page.header-image %}
-            <img class="header-image" src="/assets/{{ page.header-image }}">
+                {% responsive_image_block %}
+                    path: assets/resized/{{ page.header-image }}
+                {% endresponsive_image_block %}
             {% endif %}
 
             <h1>{{ page.title }}</h1>

@@ -5,7 +5,9 @@ layout: default
 {% for post in site.posts %}
     <li>    
         <a href="{{ post.url }}">
-            <img src="assets/{{ post.front-image }}">
+            {% responsive_image_block %}
+                path: assets/resized/{{ post.front-image }}
+            {% endresponsive_image_block %}
             <h3><span>{{ post.front-title }}</span></h3>
         </a>
     </li>

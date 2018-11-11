@@ -28,24 +28,24 @@
             
             <div class="post-body">
 
-            <div>{{content}}</div>
+            <div class="post-content">{{content}}</div>
 
                 <ul class="metadata">
-                    <li>Publisert {% assign m = page.date | date: "%-m" %}
-                            {{ page.date | date: "%-d" }}.&nbsp;{% case m %}
-                              {% when '1' %}jan
-                              {% when '2' %}feb
-                              {% when '3' %}mar
-                              {% when '4' %}apr
-                              {% when '5' %}mai
-                              {% when '6' %}jun
-                              {% when '7' %}jul
-                              {% when '8' %}aug
-                              {% when '9' %}sept
-                              {% when '10' %}okt
-                              {% when '11' %}nov
-                              {% when '12' %}des
-                            {% endcase %}{{ page.date | date: "%Y" }}</li>
+                    <li>Publisert {% assign m = page.date | date: "%-m" -%}
+                            {{- page.date | date: "%-d" -}}.&nbsp;{%- case m -%}
+                              {%- when '1' -%}jan
+                              {%- when '2' -%}feb
+                              {%- when '3' -%}mar
+                              {%- when '4' -%}apr
+                              {%- when '5' -%}mai
+                              {%- when '6' -%}jun
+                              {%- when '7' -%}jul
+                              {%- when '8' -%}aug
+                              {%- when '9' -%}sept
+                              {%- when '10' -%}okt
+                              {%- when '11' -%}nov
+                              {%- when '12' -%}des
+                            {%- endcase -%}&nbsp;{{- page.date | date: "%Y" -}}</li>
                     <li>{% if page.client %}Laget&nbsp;for {{ page.client | replace: " ", "&nbsp;"}} {% else %} Personlig prosjekt {% endif %}</li>
                 </ul>
 

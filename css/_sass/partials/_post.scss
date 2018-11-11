@@ -16,7 +16,11 @@
     justify-content: space-between;
 
     .metadata{
-        width:30%;
+        width:auto;
         margin-left: 2rem;
+    }
+
+    .post-content{
+        width: 50em;
     }
 }

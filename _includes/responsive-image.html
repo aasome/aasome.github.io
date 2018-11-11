@@ -4,5 +4,5 @@
     {% endfor %}
         /{{ original.path }} {{ original.width }}w
 {% endcapture %}
-<!--<img width="100%" src="/{{ smallest.path }}" alt="{{ alt }}" data-srcset="{{ srcset | strip_newlines }}" class="blur-up lazyautosizes lazyload">-->
 <img width="100%" src="/{{ path }}" alt="{{ alt }}" srcset="{{ srcset | strip_newlines }}">
+<!--<img width="100%" src="/{{ smallest.path }}" alt="{{ alt }}" data-srcset="{{ srcset | strip_newlines }}" class="blur-up lazyautosizes lazyload">-->

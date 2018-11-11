@@ -1,8 +1,8 @@
 <body>
     <a href="{{ site.baseurl }}{% link index.html %}">
         <div class="header-wrapper">
-            <img class="header-desktop" src="/assets/header-dekstop.png">
-            <img class="header-mobile" src="/assets/header-mobile.png">
+             <div class="header-desktop">{% responsive_image path: assets/header-dekstop.png %}</div>
+             <div class="header-mobile">{% responsive_image path: assets/header-mobile.png %}</div>
         </div>
     </a>
 </body>

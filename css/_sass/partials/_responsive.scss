@@ -5,6 +5,9 @@
 	.bio{width:100%;}
 	.contact{width:100%;}
 	.bio h4{display:none;}
+	.post-body{flex-wrap: wrap-reverse;
+		.metadata{width:100%; margin-left:0; margin-bottom: 1rem;}
+	}
 } 
 
 /* Small devices (portrait tablets and large phones, 600px and up) */

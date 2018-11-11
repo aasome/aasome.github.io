@@ -6,6 +6,8 @@ timezone: Europe/Oslo
 
 permalink: /:year/:title:output_ext
 
+
+
 plugins: 
     - jekyll-responsive-image
 

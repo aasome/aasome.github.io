@@ -21,12 +21,12 @@ responsive_image:
   # a `width` value.
   sizes:
     - width: 375
-      quality: 80  
+      quality: 80
     - width: 480  # [Required] How wide the resized image will be.
       quality: 80 # [Optional] Overrides default_quality for this size.
-    - width: 640  
     - width: 800
     - width: 1280
+      quality: 90
 # [Optional, Default: false]
   # Rotate resized images depending on their EXIF rotation attribute. Useful for
   # working with JPGs directly from digital cameras and smartphones
@@ -34,7 +34,7 @@ responsive_image:
 # [Optional, Default: false]
   # Strip EXIF and other JPEG profiles. Helps to minimize JPEG size and win friends
   # at Google PageSpeed.
-  strip: false
+  strip: true
 # [Optional, Default: assets]
   # The base directory where assets are stored. This is used to determine the
   # `dirname` value in `output_path_format` below.
@@ -64,4 +64,4 @@ responsive_image:
   # tags are resized. Here you can set a list of paths or path globs to resize other
   # images. This is useful for resizing images which will be referenced from stylesheets.
   extra_images:
-    - assets/*/*/*/*.{jpeg,jpg,png}
+    - uploads/*/*/*/*.{jpeg,jpg}
